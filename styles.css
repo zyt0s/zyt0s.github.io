@@ -9,9 +9,13 @@
 .page{
     background-color: #ADD8E6
 }
+.page2{
+    background-color: #ADD8E6
+}
 
 button {
     padding: 20px 40px;
+    color: #FFFFFF;
     font-size: 20px;
     border: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
