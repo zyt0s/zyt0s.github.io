@@ -13,8 +13,22 @@
     display: none;
     background-color: #ADD8E6
 }
+.img{
+    width: 300px;
+}
+.bild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.knöpfe{
+    display: flex;
+    align-items: center;
+}
 
-button {
+.ja{
+    background-color: #008000;
     padding: 20px 40px;
     color: #FFFFFF;
     font-size: 20px;
@@ -27,12 +41,18 @@ button {
     text-align: center;
 }
 
-.ja{
-    background-color: #008000;
-}
-
 .nein{
     background-color: #FF0000;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
 }
 
 .knöpfe{
